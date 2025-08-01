@@ -1,38 +1,29 @@
-# 🏏 Cricket Player Performance Management System
+# IPL Player Project
 
-A Java-based console application to manage and analyze cricket player data such as score, wickets, category, and team using JDBC and MySQL.
+This is a Spring Boot-based CRUD application for managing IPL players. It demonstrates how to build RESTful APIs using Spring Boot, connect to a MySQL database, and use Actuator for monitoring.
 
----
+## 🧾 Project Overview
 
-## 📌 Features
+- **Framework**: Spring Boot
+- **Build Tool**: Maven
+- **Language**: Java 17
+- **Database**: MySQL
+- **Purpose**: Manage players, filter them by category, and perform basic CRUD operations.
 
-- ✅ View all players
-- 🔍 Filter players by:
-  - Category (e.g., Batsman, Bowler)
-  - Team name
-- 🆔 Search player by ID
-- 🏆 Get player with:
-  - Highest Score
-  - Highest Wickets
-- ✏️ Update player’s:
-  - Score
-  - Wickets
-- ❌ Delete player by ID
-- 📊 Sort players using custom comparator logic
+## 🚀 Features
 
----
+- Add, update, delete, and list IPL players
+- Filter players by category
+- RESTful API architecture
+- Spring Boot Actuator integration for health checks and metrics
 
-## 🛠 Tech Stack
+## 🛠️ Technologies Used
 
-| Technology | Description              |
-|------------|--------------------------|
-| Java       | Core Java, Collections   |
-| JDBC       | Database Connectivity    |
-| MySQL      | Database                 |
-| DAO Pattern| Data access abstraction  |
-| MVC        | Layered architecture     |
+- Spring Boot Web
+- Spring Boot Actuator
+- MySQL Connector/J
+- Maven
+- Java 17
 
----
 
-## 📁 Project Structure
 
